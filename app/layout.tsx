@@ -12,7 +12,7 @@ import AboutSection from '@/components/about'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'HomeVerse',
+  title: 'Bahay Ni Kuya',
   description: 'Find Your Dream House By Us.',
 }
 

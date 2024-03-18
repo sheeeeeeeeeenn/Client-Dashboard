@@ -10,7 +10,7 @@ export const revalidate = 0;
 
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true });
-  const billboard = await getBillboard("ca098163-0634-469b-95b5-c5dd6bb4ecdb"); // billboard api
+  const billboard = await getBillboard("f0111d3a-5c3e-4d34-9282-97bf079237f4"); // billboard api
 
   return (
     <>
@@ -24,7 +24,7 @@ const HomePage = async () => {
             data={billboard}
           />
           <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-            <ProductList title="Featured Properties and Listing" items={products} />
+            <ProductList title="Featured Properties & Listing" items={products} />
           </div>
         </div>
       </Container>
