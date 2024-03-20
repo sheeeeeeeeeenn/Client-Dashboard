@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { MouseEventHandler } from "react";
-import { Expand, ShoppingCart } from "lucide-react";
+import { Expand, Plus } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 import Currency from "@/components/ui/currency";
@@ -56,7 +56,7 @@ const ProductCard: React.FC<ProductCard> = ({
             />
             <IconButton
               onClick={onAddToCart}
-              icon={<ShoppingCart size={20} className="text-gray-600" />}
+              icon={<Plus size={20} className="text-gray-600" />}
             />
           </div>
         </div>
