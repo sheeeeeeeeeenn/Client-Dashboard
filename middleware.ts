@@ -7,7 +7,7 @@ export default authMiddleware({
     // no authentication information
     ignoredRoutes: [
         '/no-auth-in-this-route',
-        '/category/9180a603-4706-43b4-848f-082b3a03d54c' // Adding the specific category route to be ignored by auth
+        
     ],
 });
 
