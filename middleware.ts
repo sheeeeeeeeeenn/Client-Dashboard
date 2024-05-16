@@ -7,8 +7,6 @@ export default authMiddleware({
     // no authentication information
     ignoredRoutes: [
         '/no-auth-in-this-route',
-
-        
     ],
 });
 
